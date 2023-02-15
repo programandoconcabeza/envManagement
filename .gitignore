@@ -1,0 +1,6 @@
+/.env
+/.environments.zip
+/vendor
+/.idea
+/.phpunit.result.cache
+/composer.lock
