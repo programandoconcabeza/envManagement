@@ -62,7 +62,7 @@ final class PutEnvFromZipFileTest extends TestCase
         $zip->close();
 
         ($this->sut)(self::ENV_ZIP_FILE, self::ENV_FILE);
-        $this->assertEquals(true, file_exists(self::ENV_FILE));
+        $this->assertTrue(file_exists(self::ENV_FILE));
     }
 
     private function createCustomEnvFile()
