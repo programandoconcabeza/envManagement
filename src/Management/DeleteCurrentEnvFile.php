@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 
-namespace Src\Management;
+namespace ProgramandoConCabeza\Management;
 
 
 final class DeleteCurrentEnvFile

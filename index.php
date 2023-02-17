@@ -2,10 +2,14 @@
 
 require_once 'vendor/autoload.php';
 
-use Src\Management\ManagementProcess;
+use ProgramandoConCabeza\Management\ManagementProcess;
+use ProgramandoConCabeza\PHPColorCli;
+
 
 try {
     (new ManagementProcess())();
+    print_r(PHPColorCli::getColoredString('The process has been successfully.', 'green') . PHP_EOL);
+
 } catch (Exception $e) {
-    throw new \Exception($e->getMessage());
+    print_r(PHPColorCli::getColoredString($e->getMessage(), 'red') . PHP_EOL);
 }

@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Src\\": "src/",
+            "ProgramandoConCabeza\\": "src/",
             "Tests\\": "tests/"
         }
     },
@@ -22,10 +22,10 @@
     },
     "minimum-stability": "dev",
     "require-dev": {
-        "phpunit/phpunit": "^9.6.3",
-        "ext-zip": "*"
+        "phpunit/phpunit": "^9.6.3"
     },
     "require": {
-        "php": ">=7.4"
+        "php": ">=7.4",
+        "programandoconcabeza/php-color-cli": "^1.0"
     }
 }

@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 
-namespace Src\Management;
+namespace ProgramandoConCabeza\Management;
 
 use ZipArchive;
 
@@ -15,7 +15,7 @@ final class PutEnvFromZipFile
     public function __invoke(string $file, string $envFile): void
     {
         if (!file_exists($file)) {
-            throw new \Exception('Does not exist ' . $file . ' file');
+            throw new \Exception('environments.zip file not found.');
         }
 
         (new DeleteCurrentEnvFile())($envFile);
