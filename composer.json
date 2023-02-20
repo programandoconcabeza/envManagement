@@ -1,31 +1,34 @@
 {
-    "name": "programandoconcabeza/env-management",
-    "description": "management of env files",
-    "type": "library",
-    "license": "GPL-2.0-or-later",
-    "authors": [
-        {
-            "name": "programandoconcabeza",
-            "email": "programandoconcabeza@gmail.com"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "ProgramandoConCabeza\\": "src/",
-            "Tests\\": "tests/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\": "tests/"
-        }
-    },
-    "minimum-stability": "dev",
-    "require-dev": {
-        "phpunit/phpunit": "^9.6.3"
-    },
-    "require": {
-        "php": ">=7.4",
-        "programandoconcabeza/php-color-cli": "^1.0"
+  "name": "programandoconcabeza/env-management",
+  "description": "management of env files",
+  "type": "library",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "programandoconcabeza",
+      "email": "programandoconcabeza@gmail.com"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ProgramandoConCabeza\\": "src/",
+      "Tests\\": "tests/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require-dev": {
+    "phpunit/phpunit": "^9.6.3"
+  },
+  "require": {
+    "php": ">=7.4",
+    "programandoconcabeza/php-color-cli": "dev-main",
+    "ext-zip": "*",
+    "ext-openssl": "*",
+    "ext-readline": "*"
+  }
 }
