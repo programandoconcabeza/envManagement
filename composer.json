@@ -20,7 +20,7 @@
   },
   "require": {
     "php": ">=7.4",
-    "programandoconcabeza/php-color-cli": "dev-main",
+    "programandoconcabeza/php-color-cli": "^1.0.0",
     "ext-zip": "*",
     "ext-openssl": "*",
     "ext-readline": "*"
@@ -31,7 +31,7 @@
       "url": "https://packagist.org/packages/programandoconcabeza/php-color-cli",
       "options": {
         "versions": {
-          "programandoconcabeza/php-color-cli": "dev-main"
+          "programandoconcabeza/php-color-cli": "1.0.0"
         }
       }
     }
