@@ -24,5 +24,16 @@
     "ext-zip": "*",
     "ext-openssl": "*",
     "ext-readline": "*"
-  }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packagist.org/packages/programandoconcabeza/php-color-cli",
+      "options": {
+        "versions": {
+          "programandoconcabeza/php-color-cli": "dev-main"
+        }
+      }
+    }
+  ]
 }
